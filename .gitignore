@@ -1,0 +1,22 @@
+# 원본/대용량 데이터 (README에 다운로드 안내)
+CrimeData.csv
+CrimeDataCleaned.csv
+CrimeData_for_EDA.csv
+
+# 가상환경
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# 교수님 과제 안내문 (본인 작업물 아님)
+Instruction_*.pdf
+Instruction_*.docx
+
+# 개인 보관용 코드리뷰
+코드리뷰:*
+
+# 아직 업데이트 안된 리포트
+P2-03_report.pdf

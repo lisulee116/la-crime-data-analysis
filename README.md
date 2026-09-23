@@ -12,15 +12,20 @@ End-to-end data science project on the City of Los Angeles' public crime dataset
 
 ## Repository structure
 
+```
+.
 ├── project1_data_cleaning_eda/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_eda_visualization.ipynb
-│ └── data/MoCodes.csv
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda_visualization.ipynb
+│   └── data/
+│       └── MoCodes.csv
 ├── project2_crime_classification/
-│ ├── 01_feature_selection_and_baseline_models.ipynb
-│ └── 02_hyperparameter_tuning_and_evaluation.ipynb
-├── docs/MoCodes.pdf
+│   ├── 01_feature_selection_and_baseline_models.ipynb
+│   └── 02_hyperparameter_tuning_and_evaluation.ipynb
+├── docs/
+│   └── MoCodes.pdf
 └── requirements.txt
+```
 
 
 ## Project 1 — Data Cleaning & EDA

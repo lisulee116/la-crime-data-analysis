@@ -55,12 +55,6 @@ Built on Project 1's cleaned data to tune and compare Logistic Regression, SVM (
 - SVM training time scales poorly with dataset size; tuning and final fits use a stratified subsample, with the trade-off documented and quantified against the full-data baseline.
 - Fixed a non-deterministic `mutual_info_classif` call (no `random_state`) that could silently change feature-importance rankings between runs.
 
-## Project 1 — Data Cleaning & EDA
-Missing values, duplicates, date/time parsing, and MO-code mapping, followed by exploratory analysis of crime frequency by area/month and victim demographics.
-
-## Project 2 — Crime Type Classification
-Feature selection (variance filter, correlation, chi-square, mutual information) narrowed down predictive features, then three models — Logistic Regression, SVM (RBF), and Random Forest — were tuned via GridSearchCV/RandomizedSearchCV and compared across three class-balancing strategies (original, SMOTE, undersampling). **Random Forest on the original (unbalanced) data performed best overall** (Weighted F1 ≈ 0.54), consistent with its strength on baseline comparisons in Project 1.
-
 ## Data
 The raw dataset isn't included (too large for git). Download it from [data.lacity.org](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8) and save as `project1_data_cleaning_eda/data/CrimeData.csv`, then run the notebooks in order.
 

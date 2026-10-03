@@ -1,6 +1,10 @@
 # 원본/대용량 데이터 (README에 다운로드 안내)
 CrimeData.csv
-CrimeDataCleaned.csv
+CrimeDataCleaned_V1.csv
+CrimeData_for_EDA_V1.csv
+CrimeDataCleaned_V2.csv
+CrimeDataCleaned_V3.csv
+CrimeData_for_EDA_V2.csv
 CrimeData_for_EDA.csv
 
 # 가상환경
